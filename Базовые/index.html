@@ -7,14 +7,13 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script defer src="task1.js"></script>
-  
+  <script defer src="task2.js"></script>
 </head>
 <body>
-  <h1>Задачи по js</h1>
-  <h2>Базовые:</h2>
-  <h3>Задача 1</h3>
-  
-  <form class="container">
+  <div class="container">
+    <h1>Задачи по js</h1>
+    <h2>Базовые:</h2>
+    <h3>Задача 1</h3>
     <div class="mb-3">
       <p>Написать функцию, которая принимает два числа и возращает результат их умножения</p>
       <input type="text" class="form-control" id="input1_task1">
@@ -24,7 +23,26 @@
     </div>
     <input  type="button" class="btn btn-primary" id="elem" value="Посчиатать!">
     <div id="result">Ответ: </div>
-</form>
+  </div>
 
+
+  <div class="container">
+    <h3>Задача 2</h3>
+    <div class="mb-3">
+      <p>Написать функцию, которой передаем, имя, фамилия и возраст, и получаем строку "Привет Иван Петров с возрастом 17 лет" (только здесь данные, которые были переданы в функцию) </p>
+      <span>Имя</span>
+      <input type="text" class="form-control" id="input1_task2">
+    </div>
+    <div class="mb-3">
+      <span>Фамилия</span>
+      <input type="text" class="form-control" id="input2_task2">
+    </div>
+    <div class="mb-3">
+      <span>Возраст</span>
+      <input type="text" class="form-control" id="input3_task2">
+    </div>
+    <input type="button" class="btn btn-primary" id="elem2" value="Передать привет!">
+    <div id="result2"></div>
+  </div>
 </body>
 </html>
