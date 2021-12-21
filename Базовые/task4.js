@@ -20,6 +20,6 @@ function weakday(day) {
     case "7":
       return document.getElementById("result4").innerHTML = `Воскрсенье`;
     default:
-      alert('Yander dev.');
+      alert('Не правильное число.');
   }
 }
