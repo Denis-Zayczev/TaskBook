@@ -11,5 +11,5 @@ function massive(arr) {
   function isPositive(arr) {
     return arr % 2 == 0;
   }
-  return document.getElementById("result2").innerHTML = `Четные числа в массиве? : ${(arr.every(isPositive))}`;
+  return document.getElementById("result1").innerHTML = `Четные числа в массиве? : ${(arr.every(isPositive))}`;
 }
