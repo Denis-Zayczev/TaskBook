@@ -1,4 +1,7 @@
-elem2.onclick = function() {
+(function() {
+let arr = [];
+elem2.addEventListener("click", task2);
+function task2() {
   let a = document.getElementById('input1_task2').valueAsNumber;
   arr.push(a);
   document.getElementById("result2").innerHTML = `Массив: ${arr}`;
@@ -7,6 +10,7 @@ elem2.onclick = function() {
 };
 
 function massive(arr) {
-  const result = arr.filter(arr => arr % 5 == 0);
+  let result = arr.filter(arr => arr % 5 == 0);
   return document.getElementById("result3").innerHTML = `Кратные пяти : ${result}`;
 }
+})();

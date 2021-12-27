@@ -1,5 +1,6 @@
+(function(){
 let arr = [];
-elem.onclick = function() {
+function task1(){
   let a = document.getElementById('input1_task1').valueAsNumber;
   arr.push(a);
   document.getElementById("result").innerHTML = `Массив: ${arr}`;
@@ -13,3 +14,6 @@ function massive(arr) {
   }
   return document.getElementById("result1").innerHTML = `Четные числа в массиве? : ${(arr.every(isPositive))}`;
 }
+
+elem.addEventListener("click", task1);
+})();
