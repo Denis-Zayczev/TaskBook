@@ -1,16 +1,6 @@
 (function() {
     function task1() {
-
       const parent = document.getElementById("result1");
-
-      // const data = {
-      //   one: {
-      //     John: "100",
-      //     Ann: "160",
-      //     Pete: "130"
-      //   }}
-
-
       const data = {
         one: {
           name: "John",
